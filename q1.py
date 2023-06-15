@@ -1,13 +1,14 @@
-i=3;
-a=2;
-while (i!=2):
-    print("enter the entering time by hour & minute separated with a space.")
-    inlet1=input()
-    inlet2=list(map(int,inlet1.split(' ')))
-    i=len(inlet2)
-    if i!=2 or true:
-        print("enter 2 numbers.")
+i=3
+while(i!=2):
+    while (i!=2):
+        print("enter the entering time in hour & minute separated with a space.")
+        in1=input()
+        in2=list(map(int,in1.split(' ')))
+        i=len(in2)
+        if i!=2 or in2[0]>22 or in2[0]<6:
+            print("enter 2 numbers.")
+            i=5
+            break
+        else:
+           print("hi")
         break
-    else:
-       print("hi")
-    break
