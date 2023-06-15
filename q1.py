@@ -28,7 +28,6 @@ while (i!=2):
 a=time2-time1
 b=int(a/60)
 c=a%60
-e=int(c/20)
 d=int(c/20)+1
 cost1=b*3+d
-print(cost1,d,e)
+print(cost1)
